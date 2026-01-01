@@ -5,6 +5,11 @@ Console.WriteLine(FeetToInches(12));
 Console.WriteLine(FeetToInches(24));
 
 
+Console.WriteLine(MultiplyByPi(26));
+
+double value = MultiplyByPi(36);
+
+Console.WriteLine(value);
 int FeetToInches(int feet){
 
     int inches = feet * 12;
@@ -17,4 +22,12 @@ int FeetToInches(int feet){
 
 void Hello(){
     Console.WriteLine("Hello World!");
+}
+
+// Method that multiplys any given number by Pi
+double MultiplyByPi(double value){
+
+	double values = value * 3.14;
+
+	return values;
 }
