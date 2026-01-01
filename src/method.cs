@@ -9,6 +9,11 @@ Console.WriteLine(MultiplyByPi(26));
 
 double value = MultiplyByPi(36);
 
+bool registered = isCollected(true)
+
+Console.WriteLine(registered)
+
+if ()
 Console.WriteLine(value);
 int FeetToInches(int feet){
 
@@ -30,4 +35,9 @@ double MultiplyByPi(double value){
 	double values = value * 3.14;
 
 	return values;
+}
+
+void isCollected(bool collection){
+
+    bool collected = true;
 }
