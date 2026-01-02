@@ -9,6 +9,11 @@ Console.WriteLine(p2.Name); // Pan duh
 Console.WriteLine(Panda.Population); // 2
 
 
+// If we wanted to Panda.Name would generate an error since it is not referring to an exact instance
+// p1.Population would also generate an error.
+
+
+
 public class Panda{
 
 	public string name;  // Insance field
@@ -39,6 +44,8 @@ By default members are instance members
 
 
 **An instance member is like your name, a static member is like your country.
+
+There can be multiple people in a country but they all have different names
 
 
 We can use instance members when the data is specific to that object
