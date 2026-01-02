@@ -1,3 +1,5 @@
+
+// Since our variable is set to false and the condition is not met nothing will print
 bool simpleVar = false;
 if (simpleVar){
 
@@ -5,6 +7,8 @@ if (simpleVar){
 
 }
 
+
+// Here our condition is met so the computer will print the message since our condition is true
 
 int x = 1000;
 
