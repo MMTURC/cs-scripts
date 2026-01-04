@@ -52,3 +52,18 @@ Console.WriteLine(number);
 int x = 4;
 
 Console.WriteLine($"we use the number {x}");
+
+// String comparisons
+
+Console.WriteLine(("Boston").CompareTo("Austin"));
+
+Console.WriteLine(("Boston").CompareTo("Boston"));
+Console.WriteLine(("Boston").CompareTo("Chicago"));
+
+
+// Will print 0, 1, -1 depending on whether or not the value comes 
+// Before after or alongside the same second value
+
+// We can get a specific letter in a string by calling it at an index
+
+Console.WriteLine("Hello"[3]);
