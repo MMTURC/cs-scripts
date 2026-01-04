@@ -47,3 +47,8 @@ string number = "a" + 7; // int is converted to a string using ToString()
 
 Console.WriteLine(number);
 
+// string interpolation
+
+int x = 4;
+
+Console.WriteLine($"we use the number {x}");
