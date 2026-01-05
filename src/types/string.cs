@@ -66,4 +66,4 @@ Console.WriteLine(("Boston").CompareTo("Chicago"));
 
 // We can get a specific letter in a string by calling it at an index
 
-Console.WriteLine("Hello"[3]);
+Console.WriteLine("Hello"[3]); // will return l
