@@ -1,3 +1,5 @@
+using System.ComponentModel;
+
 char[] hello = new char[5];
 
 hello[0] = 'h';
@@ -17,3 +19,21 @@ for (int i = 0; i < hello.Length; i++)
 // we can also just use a one liner
 
 foreach (char h in hello) Console.WriteLine(h);
+
+// Multi-Dimensional arrays
+
+// The following is how to decalre a rectangular array 
+
+var rectMatrix = new[,]
+{
+    {0,1,2},
+    {3,4,6},
+    {10,11,3}
+};
+
+var jaggedMatrix = new int[][]{
+    new[] {2,3,5},
+    new[] {4,4,8},
+    new[] {5,6,8},
+
+};
